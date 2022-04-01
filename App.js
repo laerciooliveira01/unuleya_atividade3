@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, FlatList, Image, Button, ScrollView, StyleSheet, TouchableHighlight } from 'react-native';
 
+import GifImage from '@lowkey/react-native-gif';
+
 const App = () => {
   const [nmParticipante, setNmParticipante] = useState('');
   const [resultado, setResultado] = useState();
@@ -71,14 +73,23 @@ const App = () => {
             backgroundColor: '#ff0000',
             marginBottom: 3,
             marginTop: 10,
-            justifyContent: 'center',
             borderRadius: 5,
-            margin: 3
+            margin: 3,
+            flexDirection: 'row',
           }
         }>
-          <Text style={{ color: '#fff', marginLeft: 5, fontWeight: 'bold', fontSize: 30 }}>
+          <GifImage
+            source={require('./img/winner.gif')}
+            style={{
+              width: 100,
+              height: 100,
+            }}
+            resizeMode={'contain'}
+          />
+
+          <Text style={{ color: '#fff', marginLeft: 5, fontWeight: 'bold', fontSize: 20, height: 100, textAlignVertical: 'center' }}>
             Vencedor: {resultado}
-          </Text>
+          </Text>         
         </View>
         :
         <View style={{ flex: 1 }}>

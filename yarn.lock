@@ -1028,6 +1028,11 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@lowkey/react-native-gif@^3.1.0":
+  "integrity" "sha512-OXoI2p3xHdVkYvA22BjPR7fXp/7CsCwf0/UFrNGAb17lQFluRgkSmi4TLyuK0kYdguPSZdTnDm3NW+siS0w9uQ=="
+  "resolved" "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm-v-repo/@lowkey/react-native-gif/-/react-native-gif-3.1.0.tgz"
+  "version" "3.1.0"
+
 "@nodelib/fs.scandir@2.1.5":
   "integrity" "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="
   "resolved" "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm-v-repo/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz"
@@ -5634,7 +5639,7 @@
     "react-shallow-renderer" "^16.13.1"
     "scheduler" "^0.20.2"
 
-"react@^16.0.0 || ^17.0.0", "react@^18.0.0", "react@17.0.2":
+"react@*", "react@^16.0.0 || ^17.0.0", "react@^18.0.0", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm-v-repo/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
